@@ -1,0 +1,53 @@
+﻿<Window x:Class="PR3.Questions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR3"
+        mc:Ignorable="d"
+        Title="Questions" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="335" Margin="25,0,0,0" VerticalAlignment="Center" Width="165" RenderTransformOrigin="0.5,0.5" Background="#FFBAD4D2">
+            <Label Content="Category1" Height="67" Width="165" HorizontalAlignment="Left" Background="#FFDAEEFD" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Category2" Height="67" Width="165" HorizontalAlignment="Left" Background="#FFDAEEFD" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Category3" Height="67" Width="165" HorizontalAlignment="Left" Background="#FFDAEEFD" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Category4" Height="67" Width="165" HorizontalAlignment="Left" Background="#FFDAEEFD" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Content="Category5" Height="67" Width="165" HorizontalAlignment="Left" Background="#FFDAEEFD" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" Height="335" Background="#FFBAD4D2" HorizontalAlignment="Left" Margin="190, 0, 0, 0">
+            <Button x:Name="_11" Content="100" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0, 0, 0, 0" Click="Button_Click"/>
+            <Button x:Name="_12" Content="200" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67, -67, 0, 0" Click="Button_Click_1"/>
+            <Button x:Name="_13" Content="300" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="134, -67, 0, 0" Click="Button_Click_2"/>
+            <Button x:Name="_14" Content="400" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="201, -67, 0, 0" Click="Button_Click_3"/>
+            <Button x:Name="_15" Content="500" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268, -67, 0, 0" Click="Button_Click_4"/>
+            <Button x:Name="_21" Content="100" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0, 0, 0, 0" Click="Button_Click_5"/>
+            <Button x:Name="_22" Content="200" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67, -67, 0, 0" Click="Button_Click_6"/>
+            <Button x:Name="_23" Content="300" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="134, -67, 0, 0" Click="Button_Click_7"/>
+            <Button x:Name="_24" Content="400" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="201, -67, 0, 0" Click="Button_Click_9"/>
+            <Button x:Name="_25" Content="500" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268, -67, 0, 0" Click="Button_Click_8"/>
+            <Button x:Name="_31" Content="100" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0, 0, 0, 0" Click="Button_Click_10"/>
+            <Button x:Name="_32" Content="200" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67, -67, 0, 0" Click="Button_Click_11"/>
+            <Button x:Name="_33" Content="300" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="134, -67, 0, 0" Click="Button_Click_12"/>
+            <Button x:Name="_34" Content="400" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="201, -67, 0, 0" Click="Button_Click_13"/>
+            <Button x:Name="_35" Content="500" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268, -67, 0, 0" Click="Button_Click_14"/>
+            <Button x:Name="_41" Content="100" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0, 0, 0, 0" Click="Button_Click_15"/>
+            <Button x:Name="_42" Content="200" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67, -67, 0, 0" Click="Button_Click_16"/>
+            <Button x:Name="_43" Content="300" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="134, -67, 0, 0" Click="Button_Click_17"/>
+            <Button x:Name="_44" Content="400" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="201, -67, 0, 0" Click="Button_Click_18"/>
+            <Button x:Name="_45" Content="500" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268, -67, 0, 0" Click="Button_Click_19"/>
+            <Button x:Name="_51" Content="100" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0, 0, 0, 0" Click="Button_Click_20"/>
+            <Button x:Name="_52" Content="200" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="67, -67, 0, 0" Click="Button_Click_21"/>
+            <Button x:Name="_53" Content="300" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="134, -67, 0, 0" Click="Button_Click_22"/>
+            <Button x:Name="_54" Content="400" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="201, -67, 0, 0" Click="Button_Click_23"/>
+            <Button x:Name="_55" Content="500" Height="67" Width="67" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268, -67, 0, 0" Click="Button_Click_24"/>
+        </StackPanel>
+        <Label x:Name="ques" Content="" HorizontalAlignment="Left" Height="167" Margin="540,50,0,0" VerticalAlignment="Top" Width="233"/>
+        <TextBox x:Name="answer" HorizontalAlignment="Left" Height="20" Margin="540,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" BorderBrush="#FFD2D2D2"/>
+        <Button x:Name="Send" Content="Ответить" HorizontalAlignment="Left" Height="28" Margin="601,247,0,0" VerticalAlignment="Top" Width="112" BorderBrush="#FFD2D2D2" Background="White" Foreground="#FF50979C" Click="Button_Click_25" />
+        <Label x:Name="pl1" Content="" HorizontalAlignment="Left" Height="33" Margin="556,320,0,0" VerticalAlignment="Top" Width="91" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="pl3" Content="" HorizontalAlignment="Left" Height="33" Margin="556,363,0,0" VerticalAlignment="Top" Width="91" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="pl2" Content="" HorizontalAlignment="Left" Height="33" Margin="682,320,0,0" VerticalAlignment="Top" Width="91" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="pl4" Content="" HorizontalAlignment="Left" Height="33" Margin="682,363,0,0" VerticalAlignment="Top" Width="91" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
